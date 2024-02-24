@@ -30,6 +30,10 @@ if (isset($_GET['id'])) {
     <meta content="" name="keywords">
     <meta content="" name="description">
 
+<!-- Add this script tag to include jsPDF library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+
+
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
 
@@ -77,7 +81,7 @@ if (isset($_GET['id'])) {
     </style>
     <div class="container orders-table">
 
-        <table class="table table-bordered">
+        <table class="table table-bordered" id="pdfTable">
             <tr>
                 <th style="color: black">Customer Name :</th>
                 <td><?= $row['user_name'] ?></td>
@@ -122,20 +126,20 @@ if (isset($_GET['id'])) {
             <tr>
             <th style="color: black">Breakfast :</th>
             <td><?php echo implode(', ', $breakfast); ?></td>
-            <td>Amount :  ₹ <input type="number" id="f1"  oninput="calculateTotal()"></td>
+            <td>Amount :  ₹ <input type="number" id="f1"  oninput="calculateTotal()" required></td>
             </tr>
 
             <tr>
             <th style="color: black">Lunch :</th>
             <td><?php echo implode(', ', $lunch); ?></td>
-            <td>Amount :  ₹ <input type="number" id="f2" oninput="calculateTotal()"></td>
+            <td>Amount :  ₹ <input type="number" id="f2" oninput="calculateTotal()" required></td>
 
             </tr>
 
             <tr>
             <th style="color: black">Dinner:</th>
             <td><?php echo implode(', ', $dinner); ?></td>
-            <td>Amount :  ₹ <input type="number" id="f3" oninput="calculateTotal()"></td>
+            <td>Amount :  ₹ <input type="number" id="f3" oninput="calculateTotal()" required></td>
 
             </tr>
 
@@ -147,10 +151,28 @@ if (isset($_GET['id'])) {
                 </td>
             </tr>
         </table>
+        <div class="download text-center">
+            <button id="downloadButton" onclick="downloadPDF()" class="btn btn-warning">Download</button>
+        </div>
      
     </div>
 </body>
+
 <script>
+
+function downloadPDF() {
+        var element = document.getElementById('pdfTable');
+
+        html2pdf(element, {
+            margin: 10,
+            filename: 'order_details.pdf',
+            image: { type: 'jpeg', quality: 0.98 },
+            html2canvas: { scale: 2 },
+            jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+        });
+    }
+
+
     function calculateTotal() {
         // Get input values
         var f1 = document.getElementById("f1").valueAsNumber || 0;
