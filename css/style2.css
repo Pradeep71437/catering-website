@@ -7,3 +7,33 @@
     width: 150px;
     background-color: black;
 }
+.orders{
+    /* border: 1px solid black; */
+justify-content: center ;
+}
+body{
+    background-color: white;
+}
+.neworder{
+    border: 1px solid orangered;
+    background-color: rgb(241, 90, 35);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+.white{
+    color: whitesmoke;
+}
+.view{
+color: whitesmoke;
+border: 2px solid whitesmoke;
+padding: 5px 15px;
+font-size: 22px;
+margin: 30px;
+margin-left: auto;
+}
+.view:hover{
+    background-color: whitesmoke;
+    color: black;
+}
