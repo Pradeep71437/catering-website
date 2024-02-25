@@ -148,7 +148,7 @@ include('header.php');
                     <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
                         <li class="nav-item">
                             <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
-                                <i class="fa fa-coffee fa-2x text-primary"></i>
+                                <!-- <i class="fa fa-coffee fa-2x text-primary"></i> -->
                                 <div class="ps-3">
                                     <small class="text-body">Popular</small>
                                     <h6 class="mt-n1 mb-0">Breakfast</h6>
@@ -183,9 +183,9 @@ include('header.php');
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <!-- <span class="text-primary">$115</span> -->
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <!-- <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> -->
                                         </div>
                                     </div>
                                 </div>
@@ -195,7 +195,7 @@ include('header.php');
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <!-- <span class="text-primary">$115</span> -->
                                             </h5>
                                             <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
                                         </div>
@@ -207,7 +207,7 @@ include('header.php');
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <!-- <span class="text-primary">$115</span> -->
                                             </h5>
                                             <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
                                         </div>
@@ -219,7 +219,7 @@ include('header.php');
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <!-- <span class="text-primary">$115</span> -->
                                             </h5>
                                             <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
                                         </div>
@@ -231,7 +231,7 @@ include('header.php');
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <!-- <span class="text-primary">$115</span> -->
                                             </h5>
                                             <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
                                         </div>
@@ -243,7 +243,7 @@ include('header.php');
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <!-- <span class="text-primary">$115</span> -->
                                             </h5>
                                             <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
                                         </div>
@@ -255,7 +255,7 @@ include('header.php');
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <!-- <span class="text-primary">$115</span> -->
                                             </h5>
                                             <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
                                         </div>
@@ -267,7 +267,7 @@ include('header.php');
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <!-- <span class="text-primary">$115</span> -->
                                             </h5>
                                             <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
                                         </div>
@@ -283,9 +283,9 @@ include('header.php');
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <!-- <span class="text-primary">$115</span> -->
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <!-- <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> -->
                                         </div>
                                     </div>
                                 </div>
