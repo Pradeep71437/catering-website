@@ -3083,7 +3083,9 @@ fieldset:disabled .btn {
 .btn-primary {
     color: #000;
     background-color: #FEA116;
-    border-color: #FEA116
+    border-color: #FEA116;
+    /* border-radius: 30px; */
+
 }
 
 .btn-primary:hover {
@@ -8285,11 +8287,12 @@ fieldset:disabled .btn {
 
 .text-break {
     word-wrap: break-word !important;
-    word-break: break-word !important
+    word-break: break-word !important;
 }
 
 .text-primary {
     color: #FEA116 !important
+    /* color: rgb(95, 255, 32) !important; */
 }
 
 .text-secondary {
