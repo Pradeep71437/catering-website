@@ -160,7 +160,7 @@
 
 
 /*** Hero Header ***/
-.hero-head {
+.hero-header {
     background: linear-gradient(rgba(22, 22, 22, 0.9), rgba(0, 0, 0, 0.9)), url(/img/bg-hero.jpg);
     background-position: center center;
     background-repeat: no-repeat;
