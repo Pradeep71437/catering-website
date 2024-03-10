@@ -69,6 +69,15 @@
     height: 48px;
 }
 
+.btn-lg-circle2{
+    width: 48px;
+    height: 48px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
 .btn-square,
 .btn-sm-square,
 .btn-lg-square {
@@ -158,15 +167,7 @@
     background-size: cover;
 }
 
-.hero-header img {
-    animation: imgRotate 50s linear infinite;
-}
 
-@keyframes imgRotate { 
-    100% { 
-        transform: rotate(360deg); 
-    } 
-}
 
 .breadcrumb-item + .breadcrumb-item::before {
     color: rgba(255, 255, 255, .5);
