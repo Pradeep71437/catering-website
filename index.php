@@ -6,8 +6,8 @@ include('header.php');
                 <div class="container my-5 py-5">
                     <div class=" align-items-center g-5">
                         <div class=" text-center align-items-center text-lg-start ">
-                            <div class="container gpic">
-                                <img src="img/perumalpic.png" alt="" class="img-fluid " width="300">
+                            <div class="container gpic  text-center">
+                                <img src="img/perumalpic.png" alt="" class="img-fluid " width="300" style="animation: none;">
                             </div>
                             <h1 class="display-3 text-warning animated text-center slideInLeft m-4">P.K.Mayakootha Iyengar Catering</h1>
                             <p class="text-white animated slideInLeft mb-4 pb-2 text-center" >Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem </p>
