@@ -22,6 +22,12 @@ body{
     width: 100%;
     
 }
+
+.gpic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .white{
     color: whitesmoke;
 }
