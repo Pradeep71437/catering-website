@@ -108,7 +108,7 @@ include('header.php');
                             </div> -->
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 mt-0">
                         <!-- <h4 class=" text-start  text-primary fw-normal">About Us</h4> -->
                         <h1 class="mb-4">Welcome to <span class="text-primary">P.K.M Catering</span></h1>
                         <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.</p>
