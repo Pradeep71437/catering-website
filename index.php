@@ -5,12 +5,15 @@ include('header.php');
             <div class="container-xxl py-5 bg-dark hero-header mb-5">
                 <div class="container my-5 py-5">
                     <div class=" align-items-center g-5">
-                        <div class=" text-center align-items-center text-lg-start">
-                            <h1 class="display-3 text-warning animated text-center slideInLeft m-4">Enjoy Our Delicious Meal</h1>
+                        <div class=" text-center align-items-center text-lg-start ">
+                            <div class="container gpic">
+                                <img src="img/perumalpic.png" alt="" class="img-fluid " width="300">
+                            </div>
+                            <h1 class="display-3 text-warning animated text-center slideInLeft m-4">P.K.Mayakootha Iyengar Catering</h1>
                             <p class="text-white animated slideInLeft mb-4 pb-2 text-center" >Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem </p>
                             
                             <div class="center-a text-center m-2 p-4">
-                                <a href="" class="btn btn-primary py-sm-3 px-sm-5 me-3  animated slideInLeft">Book A Table</a>
+                                <a href="" class="btn btn-primary py-sm-3 px-sm-5 me-3  animated slideInLeft">VIEW MENU</a>
                             </div>
                         </div>
                         <!-- <div class="col-lg-6 text-center text-lg-end overflow-hidden">
@@ -86,36 +89,37 @@ include('header.php');
 
         <!-- About Start -->
         <div class="container-xxl py-5">
-            <div class="container">
+            <div class="container text-center">
+                <h1 class="mb-5  section-title">About Us</h1>
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6">
                         <div class="row g-3">
                             <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="img/about-1.jpg">
+                                <img class="img-fluid rounded  wow zoomIn" data-wow-delay="0.1s" src="img/godpic.jpg">
                             </div>
                             <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="img/about-2.jpg" style="margin-top: 25%;">
+                                <img class="img-fluid rounded  wow zoomIn" data-wow-delay="0.3s" src="img/about.jpg" style="margin-top: 25%;">
                             </div>
-                            <div class="col-6 text-end">
+                            <!-- <div class="col-6 text-end">
                                 <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="img/about-3.jpg">
                             </div>
                             <div class="col-6 text-end">
                                 <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="img/about-4.jpg">
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <h5 class="section-title ff-secondary text-start text-primary fw-normal">About Us</h5>
-                        <h1 class="mb-4">Welcome to <i class="fa fa-utensils text-primary me-2"></i>Restoran</h1>
+                        <!-- <h4 class=" text-start  text-primary fw-normal">About Us</h4> -->
+                        <h1 class="mb-4">Welcome to <span class="text-primary">P.K.M Catering</span></h1>
                         <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.</p>
                         <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                         <div class="row g-4 mb-4">
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center border-start border-5 border-primary px-3">
-                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">15</h1>
+                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">24</h1>
                                     <div class="ps-4">
-                                        <p class="mb-0">Years of</p>
-                                        <h6 class="text-uppercase mb-0">Experience</h6>
+                                        <p class="mb-0">Years In</p>
+                                        <h6 class="text-uppercase mb-0">Business</h6>
                                     </div>
                                 </div>
                             </div>
@@ -129,7 +133,6 @@ include('header.php');
                                 </div>
                             </div>
                         </div>
-                        <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
                     </div>
                 </div>
             </div>
@@ -138,17 +141,17 @@ include('header.php');
 
 
         <!-- Menu Start -->
-        <div class="container-xxl py-5">
+        <div class="container-xxl py-5 mt-5">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Food Menu</h5>
-                    <h1 class="mb-5">Most Popular Items</h1>
+                    <!-- <h5 class="section-title ff-secondary text-center text-primary fw-normal">Food Menu</h5> -->
+                    <h1 class="mb-5 section-title">Our Menu</h1>
                 </div>
                 <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
                     <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
                         <li class="nav-item">
                             <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
-                                <!-- <i class="fa fa-coffee fa-2x text-primary"></i> -->
+                                <i class="fa fa-coffee fa-2x text-primary"></i>
                                 <div class="ps-3">
                                     <small class="text-body">Popular</small>
                                     <h6 class="mt-n1 mb-0">Breakfast</h6>
@@ -183,9 +186,9 @@ include('header.php');
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
-                                                <!-- <span class="text-primary">$115</span> -->
+                                                <span class="text-primary">$115</span>
                                             </h5>
-                                            <!-- <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> -->
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
                                         </div>
                                     </div>
                                 </div>
@@ -195,7 +198,7 @@ include('header.php');
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
-                                                <!-- <span class="text-primary">$115</span> -->
+                                                <span class="text-primary">$115</span>
                                             </h5>
                                             <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
                                         </div>
@@ -207,7 +210,7 @@ include('header.php');
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
-                                                <!-- <span class="text-primary">$115</span> -->
+                                                <span class="text-primary">$115</span>
                                             </h5>
                                             <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
                                         </div>
@@ -219,7 +222,7 @@ include('header.php');
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
-                                                <!-- <span class="text-primary">$115</span> -->
+                                                <span class="text-primary">$115</span>
                                             </h5>
                                             <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
                                         </div>
@@ -231,7 +234,7 @@ include('header.php');
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
-                                                <!-- <span class="text-primary">$115</span> -->
+                                                <span class="text-primary">$115</span>
                                             </h5>
                                             <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
                                         </div>
@@ -243,7 +246,7 @@ include('header.php');
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
-                                                <!-- <span class="text-primary">$115</span> -->
+                                                <span class="text-primary">$115</span>
                                             </h5>
                                             <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
                                         </div>
@@ -255,7 +258,7 @@ include('header.php');
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
-                                                <!-- <span class="text-primary">$115</span> -->
+                                                <span class="text-primary">$115</span>
                                             </h5>
                                             <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
                                         </div>
@@ -267,7 +270,7 @@ include('header.php');
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
-                                                <!-- <span class="text-primary">$115</span> -->
+                                                <span class="text-primary">$115</span>
                                             </h5>
                                             <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
                                         </div>
@@ -283,9 +286,9 @@ include('header.php');
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chicken Burger</span>
-                                                <!-- <span class="text-primary">$115</span> -->
+                                                <span class="text-primary">$115</span>
                                             </h5>
-                                            <!-- <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> -->
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
                                         </div>
                                     </div>
                                 </div>
@@ -483,7 +486,7 @@ include('header.php');
 
 
         <!-- Reservation Start -->
-        <div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+        <!-- <div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
             <div class="row g-0">
                 <div class="col-md-6">
                     <div class="video">
@@ -540,30 +543,30 @@ include('header.php');
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <!-- <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content rounded-0">
                     <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body"> -->
                         <!-- 16:9 aspect ratio -->
-                        <div class="ratio ratio-16x9">
+                        <!-- <div class="ratio ratio-16x9">
                             <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
                                 allow="autoplay"></iframe>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Reservation Start -->
 
 
         <!-- Team Start -->
-        <div class="container-xxl pt-5 pb-3">
+        <!-- <div class="container-xxl pt-5 pb-3">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                     <h5 class="section-title ff-secondary text-center text-primary fw-normal">Team Members</h5>
@@ -628,7 +631,7 @@ include('header.php');
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Team End -->
 
 
@@ -692,9 +695,9 @@ include('header.php');
 
         <!-- Footer Start -->
         <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-lg-3 col-md-6">
+            <div class="container py-5 ">
+                <div class="row g-5 ">
+                    <div class="col-lg-4 col-md-6  ">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
                         <a class="btn btn-link" href="">About Us</a>
                         <a class="btn btn-link" href="">Contact Us</a>
@@ -702,7 +705,7 @@ include('header.php');
                         <a class="btn btn-link" href="">Privacy Policy</a>
                         <a class="btn btn-link" href="">Terms & Condition</a>
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-4 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
                         <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
                         <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
@@ -714,21 +717,21 @@ include('header.php');
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-4 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
                         <h5 class="text-light fw-normal">Monday - Saturday</h5>
                         <p>09AM - 09PM</p>
                         <h5 class="text-light fw-normal">Sunday</h5>
                         <p>10AM - 08PM</p>
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <!-- <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
                         <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
                         <div class="position-relative mx-auto" style="max-width: 400px;">
                             <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
                             <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="container">
@@ -757,7 +760,7 @@ include('header.php');
 
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+        <a href="#" class="btn btn-lg btn-primary btn-lg-circle2 back-to-top"><i class="bi bi-arrow-up"></i></a>
     </div>
 
     <!-- JavaScript Libraries -->
